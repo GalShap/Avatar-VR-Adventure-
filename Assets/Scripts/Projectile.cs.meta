@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 20cacd7e50ba15446b05c89f6bfd2d47
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - idleRockAudio: {fileID: 8300000, guid: 6a0c7fe4a0c84c14cbf5fb11e8fb3c20, type: 3}
+  - throwRockAudio: {fileID: 8300000, guid: ac14c3a153476b749889ef6c8ac91e52, type: 3}
+  - audio: {instanceID: 0}
+  - head: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

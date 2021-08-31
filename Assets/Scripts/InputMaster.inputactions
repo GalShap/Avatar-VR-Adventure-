@@ -1,0 +1,83 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "player",
+            "id": "435129f7-8d39-4cea-ab7f-d768f5e1e97a",
+            "actions": [
+                {
+                    "name": "record",
+                    "type": "Value",
+                    "id": "61f3fc87-49f0-4eb7-8f01-fb831a92c089",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "fireRightPressed",
+                    "type": "Value",
+                    "id": "afd472ac-bf53-4ae6-9024-bbfb6ac538ed",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "fireLeftPressed",
+                    "type": "Button",
+                    "id": "a52d0df6-4b80-4022-9821-7a2968506396",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5e62c8fd-d4a5-4a84-91ec-6b5e59f78d41",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "record",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "891e0200-5343-42e6-8a12-6794b2221a19",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "fireRightPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d3df6bf4-31ec-4381-b8d4-bdef61baafe6",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "fireLeftPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "right hand ",
+            "bindingGroup": "right hand ",
+            "devices": [
+                {
+                    "devicePath": "<XRController>{RightHand}",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
